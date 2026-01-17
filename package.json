@@ -1,0 +1,12 @@
+{
+  "name": "ecuamex",
+  "version": "1.0.0",
+  "description": "Craft CMS project with Tailwind CSS",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/css/input.css -o ./web/css/styles.css --watch",
+    "build": "tailwindcss -i ./src/css/input.css -o ./web/css/styles.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}

@@ -1,0 +1,48 @@
+# Environment & Configuration
+/.env
+.env.php
+.env.sh
+.env.*
+
+# Composer
+/vendor
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# Craft CMS - Control Panel Resources (auto-generated)
+/web/cpresources
+
+# Craft CMS - Storage (logs, cache, runtime files)
+/storage/*
+!/storage/.gitkeep
+
+# Craft CMS - User Uploads (user-generated content)
+/web/uploads/*
+!/web/uploads/.gitkeep
+
+# IDE & OS files
+/.idea
+/.vscode
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Backups
+*.sql
+*.sql.gz
+*.bak
+
+# DDEV
+/.ddev/.homeadditions
+/.ddev/.gitignore
+/.ddev/import-db

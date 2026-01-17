@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en
+name: ECUA-MEX
+primary: true
+siteGroup: c8c0de8f-3dde-499e-b5a9-b9898be437a9 # ECUA-MEX
+sortOrder: 1

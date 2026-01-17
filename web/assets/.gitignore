@@ -1,0 +1,12 @@
+# Ignore all image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
+*.webp
+*.bmp
+*.ico
+
+# But track directories
+!*/

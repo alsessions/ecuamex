@@ -1,0 +1,22 @@
+dateModified: 1768611166
+email:
+  fromEmail: fultonchain@gmail.com
+  fromName: ECUA-MEX
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    b3e4ceda-62ce-4980-b7c7-f005d190cf24: ECUA-MEX # ECUA-MEX
+    c8c0de8f-3dde-499e-b5a9-b9898be437a9: ECUA-MEX # ECUA-MEX
+system:
+  edition: solo
+  live: true
+  name: ECUA-MEX
+  schemaVersion: 5.8.0.3
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true
