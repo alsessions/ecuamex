@@ -7,9 +7,9 @@
 
             <div class="hidden md:block">
                 <div class="ml-10 flex items-center space-x-8">
-                    <a href="#menu" class="text-white hover:text-yellow-200 font-semibold transition-colors drop-shadow">Menu</a>
-                    <a href="#about" class="text-white hover:text-yellow-200 font-semibold transition-colors drop-shadow">About</a>
-                    <a href="#contact" class="text-white hover:text-yellow-200 font-semibold transition-colors drop-shadow">Contact</a>
+                    <a href="/menu" class="text-white hover:text-yellow-200 font-semibold transition-colors drop-shadow">Menu</a>
+                    <a href="/about" class="text-white hover:text-yellow-200 font-semibold transition-colors drop-shadow">About</a>
+                    <a href="/contact" class="text-white hover:text-yellow-200 font-semibold transition-colors drop-shadow">Contact</a>
                 </div>
             </div>
 
@@ -29,9 +29,9 @@
 
     <div x-show="open" x-transition:enter="transition ease-out duration-100 transform" x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100" x-transition:leave="transition ease-in duration-75 transform" x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95" class="md:hidden">
         <div class="px-2 pt-2 pb-3 space-y-1 bg-gradient-to-b from-transparent to-red-700/20 border-t border-white/20">
-            <a href="#menu" @click="open = false" class="block px-3 py-2 rounded-md text-base font-semibold text-white hover:text-yellow-200 hover:bg-white/10 transition-colors">Menu</a>
-            <a href="#about" @click="open = false" class="block px-3 py-2 rounded-md text-base font-semibold text-white hover:text-yellow-200 hover:bg-white/10 transition-colors">About</a>
-            <a href="#contact" @click="open = false" class="block px-3 py-2 rounded-md text-base font-semibold text-white hover:text-yellow-200 hover:bg-white/10 transition-colors">Contact</a>
+            <a href="/menu" @click="open = false" class="block px-3 py-2 rounded-md text-base font-semibold text-white hover:text-yellow-200 hover:bg-white/10 transition-colors">Menu</a>
+            <a href="/about" @click="open = false" class="block px-3 py-2 rounded-md text-base font-semibold text-white hover:text-yellow-200 hover:bg-white/10 transition-colors">About</a>
+            <a href="/contact" @click="open = false" class="block px-3 py-2 rounded-md text-base font-semibold text-white hover:text-yellow-200 hover:bg-white/10 transition-colors">Contact</a>
         </div>
     </div>
 </nav>

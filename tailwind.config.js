@@ -1,11 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    './templates/**/*.twig',
-    './templates/**/*.html',
-  ],
+  content: ["./templates/**/*.twig", "./templates/**/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        heading: ['"Fraunces"', "serif"],
+      },
+    },
   },
   plugins: [],
-}
+};

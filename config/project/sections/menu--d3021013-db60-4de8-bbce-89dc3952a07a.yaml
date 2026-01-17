@@ -1,0 +1,21 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 8f0913e6-333d-4f47-a82d-f4eaaf7e18bf # Body Text
+handle: menu
+maxAuthors: 1
+name: 'Menu Index'
+previewTargets:
+  -
+    label: 'Primary entry page'
+    refresh: '1'
+    urlFormat: '{url}'
+propagationMethod: all
+siteSettings:
+  b3e4ceda-62ce-4980-b7c7-f005d190cf24: # ECUA-MEX
+    enabledByDefault: true
+    hasUrls: true
+    template: menu.twig
+    uriFormat: menu
+type: single

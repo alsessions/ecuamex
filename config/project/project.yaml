@@ -1,12 +1,17 @@
-dateModified: 1768611166
+dateModified: 1768621841
 email:
   fromEmail: fultonchain@gmail.com
   fromName: ECUA-MEX
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
+    8ab389ab-da34-424e-860d-f34f38892bd1: Contact # Contact
+    8f0913e6-333d-4f47-a82d-f4eaaf7e18bf: 'Body Text' # Body Text
+    71e657ed-d4bc-4346-b85e-215d165e403d: Body # Body
+    15053a88-367d-4627-8b4d-cfa855b2e491: About # About
     b3e4ceda-62ce-4980-b7c7-f005d190cf24: ECUA-MEX # ECUA-MEX
     c8c0de8f-3dde-499e-b5a9-b9898be437a9: ECUA-MEX # ECUA-MEX
+    d3021013-db60-4de8-bbce-89dc3952a07a: 'Menu Index' # Menu Index
 system:
   edition: solo
   live: true
