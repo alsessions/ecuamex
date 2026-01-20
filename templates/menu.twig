@@ -16,6 +16,30 @@
 
             <div class="bg-white rounded-xl shadow-lg p-6 md:p-8 mb-8 text-gray-800">
 
+                {# CRAFT CMS MENU STRUCTURE #}
+                {% set menuEntries = craft.entries().section('mainMenu').type('menu').all() %}
+                {% for entry in menuEntries %}
+                    <section class="mb-12">
+                        <h2 class="text-3xl md:text-4xl font-bold text-red-600 mb-6 border-b-4 border-yellow-400 pb-2">{{ entry.title|upper }}</h2>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            {# Matrix field - menuItem blocks #}
+                            {% for block in entry.menuItem.all() %}
+                                <div>
+                                    <div class="flex justify-between"><span class="font-semibold">{{ block.title|upper }}</span><span class="text-green-600 font-bold">{{ block.price|money }}</span></div>
+                                    {% if block.body %}
+                                        <div class="text-sm text-gray-600">{{ block.body }}</div>
+                                    {% endif %}
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </section>
+                {% endfor %}
+                {# END CRAFT CMS MENU STRUCTURE #}
+
+                <hr class="my-12 border-t-2 border-gray-300">
+
+                {# HARDCODED MENU BELOW - TO BE REPLACED #}
+
                 {# Especialidades Ecuatorianas #}
                 <section class="mb-12">
                     <h2 class="text-3xl md:text-4xl font-bold text-red-600 mb-6 border-b-4 border-yellow-400 pb-2">ESPECIALIDADES ECUATORIANAS</h2>

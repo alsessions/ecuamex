@@ -1,0 +1,83 @@
+color: null
+description: null
+fieldLayouts:
+  01f0a826-3b34-4122-b520-b21531314d40:
+    cardThumbAlignment: end
+    tabs:
+      - elementCondition: null
+        elements:
+          - autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: "2026-01-19T18:43:23+00:00"
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: true
+            inputType: null
+            instructions: "Name of the menu item"
+            label: "Item Name"
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 4f6a6156-c4dc-4e76-90f0-4a89fc6cb8c4
+            userCondition: null
+            warning: null
+            width: 100
+          - dateAdded: "2026-01-20T00:10:00+00:00"
+            editCondition: null
+            elementCondition: null
+            fieldUid: 71e657ed-d4bc-4346-b85e-215d165e403d
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5a6b7c8d-9e0f-1a2b-3c4d-5e6f7a8b9c0d
+            userCondition: null
+            warning: null
+            width: 100
+          - dateAdded: "2026-01-20T00:10:00+00:00"
+            editCondition: null
+            elementCondition: null
+            fieldUid: 85419900-afa8-45f8-b707-ef5f5efb5747
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: b5eada4c-0317-4492-bb24-46fd63eb9722
+        userCondition: null
+handle: item
+hasTitleField: true
+icon: null
+name: Item
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

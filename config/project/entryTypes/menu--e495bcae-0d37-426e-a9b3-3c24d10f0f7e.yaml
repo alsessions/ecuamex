@@ -1,0 +1,70 @@
+color: blue
+description: null
+fieldLayouts:
+  e89611b9-53b9-4e86-9580-691fccebe97a:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2026-01-19T18:38:58+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: 'Top level menu section.'
+            label: Heading
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: fb7f0437-c6fc-45f7-8a6d-c885b17a2476
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-01-19T19:37:05+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 597f74ec-e37e-4a6f-9b87-4e8228a18faf # Menu Item
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 754c3af1-5620-4b1a-b082-fea3ccf7260c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: fd710867-c3c6-4c42-a2b3-e0a3fa3e9e2e
+        userCondition: null
+handle: menu
+hasTitleField: true
+icon: pot-food
+name: Menu
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

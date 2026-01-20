@@ -1,0 +1,40 @@
+color: null
+description: null
+fieldLayouts:
+  92c9e3e0-354c-417e-a4cf-bdb94f168a59:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-01-19T18:46:54+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 85419900-afa8-45f8-b707-ef5f5efb5747 # Price
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3d003137-88c2-4143-8dd2-4decb8d81cb1
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ec5ec8d0-8a4d-4fee-b958-d96cbc4739e6
+        userCondition: null
+handle: price
+hasTitleField: false
+icon: null
+name: Price
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,30 @@
+columnSuffix: null
+handle: menuItem
+instructions: null
+name: "Menu Item"
+searchable: false
+settings:
+  createButtonLabel: "Add Menu Item"
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    - __assoc__:
+        - - uid
+          - 4a6fc640-57d5-4c98-b1e4-1db4649111d5
+        - - handle
+          - item
+        - - name
+          - "Menu Item"
+        - - group
+          - General
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

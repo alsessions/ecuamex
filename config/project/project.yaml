@@ -1,17 +1,23 @@
-dateModified: 1768621841
+dateModified: 1768852392
 email:
   fromEmail: fultonchain@gmail.com
   fromName: ECUA-MEX
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
+    4a6fc640-57d5-4c98-b1e4-1db4649111d5: Item # Item
     8ab389ab-da34-424e-860d-f34f38892bd1: Contact # Contact
     8f0913e6-333d-4f47-a82d-f4eaaf7e18bf: 'Body Text' # Body Text
     71e657ed-d4bc-4346-b85e-215d165e403d: Body # Body
+    83f339a4-9339-4e05-975f-420a8b40133a: Menu # Menu
+    597f74ec-e37e-4a6f-9b87-4e8228a18faf: 'Menu Item' # Menu Item
     15053a88-367d-4627-8b4d-cfa855b2e491: About # About
+    85419900-afa8-45f8-b707-ef5f5efb5747: Price # Price
     b3e4ceda-62ce-4980-b7c7-f005d190cf24: ECUA-MEX # ECUA-MEX
     c8c0de8f-3dde-499e-b5a9-b9898be437a9: ECUA-MEX # ECUA-MEX
     d3021013-db60-4de8-bbce-89dc3952a07a: 'Menu Index' # Menu Index
+    dcb22ea5-e224-4285-813d-307a801a749b: Price # Price
+    e495bcae-0d37-426e-a9b3-3c24d10f0f7e: Menu # Menu
 system:
   edition: solo
   live: true
