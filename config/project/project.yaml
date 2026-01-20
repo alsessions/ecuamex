@@ -1,4 +1,4 @@
-dateModified: 1768852392
+dateModified: 1768873961
 email:
   fromEmail: fultonchain@gmail.com
   fromName: ECUA-MEX
@@ -10,6 +10,7 @@ meta:
     8f0913e6-333d-4f47-a82d-f4eaaf7e18bf: 'Body Text' # Body Text
     71e657ed-d4bc-4346-b85e-215d165e403d: Body # Body
     83f339a4-9339-4e05-975f-420a8b40133a: Menu # Menu
+    452d6e3b-b58e-49d7-bfb2-a08f7c102f89: Simple # Simple
     597f74ec-e37e-4a6f-9b87-4e8228a18faf: 'Menu Item' # Menu Item
     15053a88-367d-4627-8b4d-cfa855b2e491: About # About
     85419900-afa8-45f8-b707-ef5f5efb5747: Price # Price
@@ -18,6 +19,29 @@ meta:
     d3021013-db60-4de8-bbce-89dc3952a07a: 'Menu Index' # Menu Index
     dcb22ea5-e224-4285-813d-307a801a749b: Price # Price
     e495bcae-0d37-426e-a9b3-3c24d10f0f7e: Menu # Menu
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      allowAttachments: ''
+      prependSender: 'On behalf of'
+      prependSubject: 'New message from ECUA-MEX'
+      successFlashMessage: 'Your message has been sent.'
+      toEmail: 'fultonchain@gmail.com,nick.sessions@gmail.com'
+  cp-clearcache:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  expanded-singles:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: solo
   live: true

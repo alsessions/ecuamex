@@ -1,21 +1,26 @@
 columnSuffix: null
 handle: menuItem
 instructions: null
-name: "Menu Item"
+name: 'Menu Item'
 searchable: false
 settings:
-  createButtonLabel: "Add Menu Item"
+  createButtonLabel: 'Add Menu Item'
   defaultIndexViewMode: cards
   enableVersioning: false
   entryTypes:
-    - __assoc__:
-        - - uid
-          - 4a6fc640-57d5-4c98-b1e4-1db4649111d5
-        - - handle
+    -
+      __assoc__:
+        -
+          - uid
+          - 4a6fc640-57d5-4c98-b1e4-1db4649111d5 # Item
+        -
+          - handle
           - item
-        - - name
-          - "Menu Item"
-        - - group
+        -
+          - name
+          - 'Menu Item'
+        -
+          - group
           - General
   includeTableView: false
   maxEntries: null

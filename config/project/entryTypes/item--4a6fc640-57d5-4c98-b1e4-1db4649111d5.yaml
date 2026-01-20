@@ -4,20 +4,22 @@ fieldLayouts:
   01f0a826-3b34-4122-b520-b21531314d40:
     cardThumbAlignment: end
     tabs:
-      - elementCondition: null
+      -
+        elementCondition: null
         elements:
-          - autocapitalize: true
+          -
+            autocapitalize: true
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: "2026-01-19T18:43:23+00:00"
+            dateAdded: '2026-01-19T18:43:23+00:00'
             disabled: false
             elementCondition: null
             id: null
             includeInCards: true
             inputType: null
-            instructions: "Name of the menu item"
-            label: "Item Name"
+            instructions: 'Name of the menu item'
+            label: 'Item Name'
             max: null
             min: null
             name: null
@@ -35,10 +37,11 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-          - dateAdded: "2026-01-20T00:10:00+00:00"
+          -
+            dateAdded: '2026-01-20T00:10:00+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: 71e657ed-d4bc-4346-b85e-215d165e403d
+            fieldUid: 71e657ed-d4bc-4346-b85e-215d165e403d # Body
             handle: null
             includeInCards: true
             instructions: null
@@ -51,10 +54,11 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-          - dateAdded: "2026-01-20T00:10:00+00:00"
+          -
+            dateAdded: '2026-01-20T00:10:00+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: 85419900-afa8-45f8-b707-ef5f5efb5747
+            fieldUid: 85419900-afa8-45f8-b707-ef5f5efb5747 # Price
             handle: null
             includeInCards: true
             instructions: null
